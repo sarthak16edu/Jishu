@@ -16,23 +16,23 @@ class script(object):
 <b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> <a href='https://t.me/FileRenameXProBot'>Rename Bot 4GB</a>
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+    ABOUT_TXT = """<b> ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/rb1renamebot'>✘ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 ✘</a>
+<b>✘ ʟᴀɴɢᴜᴀɢᴇ ✘ :</b> <a href='https://python.org'>Python 3</a>
+<b>✘ ʟɪʙʀᴀʀʏ ✘ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>✘ ꜱᴇʀᴠᴇʀ ✘ :</b> <a href='https://heroku.com'>Heroku</a>
+<b>✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘ :</b> <a href='https://t.me/rb1bots'></a>
+<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @rb1botsots"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 25 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
+<b>🛍 UPI ID:</b> <code>officialrb1@ybl</code> 
 
-<b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
+<b>📸 Send Screenshot After Donation To Activate Your Premium Plan to @helpsarthak_bot </b> """
 
     ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
 
