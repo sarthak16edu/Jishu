@@ -50,14 +50,14 @@ async def upgradecm(bot,message):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `madflixofficial@axl`
+	Pay Using Upi I'd `officialrb1@ybl`
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @calladminrobot"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/calladminrobot")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/7f959437f9375b313ed1c.jpg"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/30b3e45a02766803883cb.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("𝐀𝐃𝐌𝐈𝐍",url = "https://t.me/helpsarthak_bot")], 
+        			[InlineKeyboardButton("𝐏𝐇𝐎𝐍𝐄 𝐏𝐄",url = "https://telegra.ph/file/b6629cf65e9da7b2bcf80.jpg"),
+        			InlineKeyboardButton("𝐒𝐔𝐏𝐏𝐎𝐑𝐓",url = "https://t.me/sarthakkale16")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
