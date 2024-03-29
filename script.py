@@ -21,8 +21,8 @@ class script(object):
 <b>✘ ʟɪʙʀᴀʀʏ ✘ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>✘ ꜱᴇʀᴠᴇʀ ✘ :</b> <a href='https://koyeb.com'>KOYEB</a>
 <b>✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘ :</b> <a href='https://t.me/rb1bots'>⍟ ꜱᴀʀᴛʜᴀᴋ ⍟</a>
-<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>⍟ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏 ⍟</a>
-<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>⍟ ᴘʀᴇᴍɪᴜᴍ ᴍᴏᴠɪᴇꜱ ⍟</a>
+<b>✘ ꜱᴜᴘᴘᴏʀᴛ ✘ :</b> <a href='https://t.me/requestbox1'>⍟ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏 ⍟</a>
+<b>✘ ᴘʀᴇᴍɪᴜᴍ ✘ :</b> <a href='https://t.me/requestbox1'>⍟ ᴘʀᴇᴍɪᴜᴍ ᴍᴏᴠɪᴇꜱ ⍟</a>
 
 <b>♻️ Bot Made By :</b> @rb1botsots"""
 
