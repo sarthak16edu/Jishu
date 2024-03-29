@@ -68,7 +68,7 @@ async def donate(bot,update):
 
 @Client.on_callback_query(filters.regex('home'))
 async def home_callback_handler(bot, query):
-    text = f"""Hello {query.from_user.mention} \n\n➻ ➪ ᴍᴀɴᴀɢᴇᴅ ʙʏ :- <a href='https://t.me/rb1bots'> ʀʙ1 ʙᴏᴛs</a>\n➪ ᴄʀᴇᴀᴛᴏʀ :- <a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ✰</a>\n➪ ʟᴀɴɢᴜᴀɢᴇ :- ᴘʏᴛʜᴏɴ 3\n➪ ʟɪʙʀᴀʀʏ:- ᴘʏʀᴏɢʀᴀᴍ 2.0\n➪ ᴅᴇᴠ : @know_sarthak16\n➪ ᴛᴏᴛᴀʟ ғɪʟᴇ ʀᴇɴᴀᴍᴇs :- {total_rename}\n➪ ᴛᴏᴛᴀʟ sɪᴢᴇ ʀᴇɴᴀᴍᴇᴅ:- {humanbytes(int(total_size))} \n\n✭ ᴛʜᴀɴᴋ ʏᴏᴜ **<a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ғᴀᴍɪʟʏ ✰</a>** \nғᴏʀ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ\n✘ ᴡᴇ ʟᴏᴠᴇ ʏᴏᴜ ᴀɴᴅ sᴛᴀɴᴅ ʙʏ ʏᴏᴜ <a href='https://t.me/rb1bots'>**ʀʙ1 ʙᴏᴛs**</a> ❥"""
+    text = f"""Hello {query.from_user.mention} \n\n➻ ➪ ᴍᴀɴᴀɢᴇᴅ ʙʏ :- <a href='https://t.me/rb1bots'> ʀʙ1 ʙᴏᴛs</a>\n➪ ᴄʀᴇᴀᴛᴏʀ :- <a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ✰</a>\n➪ ʟᴀɴɢᴜᴀɢᴇ :- ᴘʏᴛʜᴏɴ 3\n➪ ʟɪʙʀᴀʀʏ:- ᴘʏʀᴏɢʀᴀᴍ 2.0\n➪ ᴅᴇᴠ : @know_sarthak16\n\n✭ ᴛʜᴀɴᴋ ʏᴏᴜ **<a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ғᴀᴍɪʟʏ ✰</a>** \nғᴏʀ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ\n✘ ᴡᴇ ʟᴏᴠᴇ ʏᴏᴜ ᴀɴᴅ sᴛᴀɴᴅ ʙʏ ʏᴏᴜ <a href='https://t.me/rb1bots'>**ʀʙ1 ʙᴏᴛs**</a> ❥"""
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ✘", url="https://t.me/rb1bots"),
                     InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ✘", url="https://t.me/requestbox1")],
@@ -77,13 +77,3 @@ async def home_callback_handler(bot, query):
                     [InlineKeyboardButton("✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘", url="https://t.me/sarthakkale16")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
