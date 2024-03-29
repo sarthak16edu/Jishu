@@ -1,4 +1,4 @@
-a"""JishuDeveloper"""
+"""JishuDeveloper"""
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup)
 from pyrogram import Client , filters
 from script import *
