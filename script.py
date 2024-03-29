@@ -19,9 +19,10 @@ class script(object):
     ABOUT_TXT = """<b> ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/rb1renamebot'>✘ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 ✘</a>
 <b>✘ ʟᴀɴɢᴜᴀɢᴇ ✘ :</b> <a href='https://python.org'>Python 3</a>
 <b>✘ ʟɪʙʀᴀʀʏ ✘ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>✘ ꜱᴇʀᴠᴇʀ ✘ :</b> <a href='https://heroku.com'>Heroku</a>
-<b>✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘ :</b> <a href='https://t.me/rb1bots'></a>
-<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏</a>
+<b>✘ ꜱᴇʀᴠᴇʀ ✘ :</b> <a href='https://koyeb.com'>KOYEB</a>
+<b>✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘ :</b> <a href='https://t.me/rb1bots'>⍟ ꜱᴀʀᴛʜᴀᴋ ⍟</a>
+<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>⍟ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐛𝐨𝐱𝟏 ⍟</a>
+<b>✘ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✘ :</b> <a href='https://t.me/requestbox1'>⍟ ᴘʀᴇᴍɪᴜᴍ ᴍᴏᴠɪᴇꜱ ⍟</a>
 
 <b>♻️ Bot Made By :</b> @rb1botsots"""
 
