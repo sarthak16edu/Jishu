@@ -38,13 +38,14 @@ async def start(client, message):
     txt=f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
     await message.reply_photo(photo=BOT_PIC,
                                 caption=txt,
-                                reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
-                                        InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
-                                        [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-				                        InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                                        [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/CallAdminRobot")]
-                                        ]))
+                                reply_markup=InlineKeyboardMarkup([
+                                      [InlineKeyboardButton("✰ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✰", url="https://t.me/rb1bots")],
+                                      [InlineKeyboardButton("ᴍᴏᴠɪᴇs", url="https://t.me/requestbox1")],
+                                      [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ʙᴏᴛ", url='https://t.me/helpsarthak_bot'),
+                                      InlineKeyboardButton("ɪɴᴅᴇx", url='https://t.me/rb1index')],
+                                      [InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url='https://t.me/rb1official'),
+                                      InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ", url='https://t.me/sarthakkale16')],
+                                      ]))
     return
 
 @Client.on_message((filters.private & (filters.document | filters.audio | filters.video)) | filters.channel & (filters.document | filters.audio | filters.video))
@@ -60,9 +61,9 @@ async def send_doc(client, message):
             await message.reply_text("<b>Hello Dear \n\nYou Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"<b><u>New User Started The Bot</u></b> \n\n<b>User ID</b> : `{user_id}` \n<b>First Name</b> : {message.from_user.first_name} \n<b>Last Name</b> : {message.from_user.last_name} \n<b>User Name</b> : @{message.from_user.username} \n<b>User Mention</b> : {message.from_user.mention} \n<b>User Link</b> : <a href='tg://openmessage?user_id={user_id}'>Click Here</a> \n<b>User Plan</b> : {user}",
-                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺  Rᴇsᴛʀɪᴄᴛ Usᴇʀ ( **PM** )  🔺", callback_data="ceasepower")]]))
+                                         [[InlineKeyboardButton("✭ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟs✭", url=f"https://t.me/{update_channel}")]]))
+            await client.send_message(log_channel,f"➪ #RubyUser ✭,\n\n➪ **ID** : `{user_id}`\n➪ **Name**: {message.from_user.first_name} {message.from_user.last_name}\n➪ **User-Plan** : {user}\n\n ",
+                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✘ Restrict User ( **pm** ) ✘", callback_data="ceasepower")]]))
             return
 		
     botdata(int(botid))
