@@ -1,4 +1,4 @@
-"""JishuDeveloper"""
+a"""JishuDeveloper"""
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup)
 from pyrogram import Client , filters
 from script import *
@@ -19,25 +19,25 @@ async def about(bot,update):
 async def donatecm(bot,message):
 	text = script.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/CallAdminRobot"), 
-        			InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
+        			[InlineKeyboardButton("✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘",url = "https://t.me/sarthakkale16"), 
+        			InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞",callback_data = "cancel") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["admin"]))
 async def admincm(bot,message):
 	text = script.ADMIN_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("✖️ Close ✖️",callback_data = "cancel") ]])
+        			[InlineKeyboardButton("✖️ 𝐂𝐥𝐨𝐬𝐞 ✖️",callback_data = "cancel") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('help'))
 async def help(bot,update):
     text = script.HELP_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([ 
-                    [InlineKeyboardButton('🏞 Thumbnail', callback_data='thumbnail'),
-                    InlineKeyboardButton('✏ Caption', callback_data='caption')],
-                    [InlineKeyboardButton('🏠 Home', callback_data='home'),
-                    InlineKeyboardButton('💵 Donate', callback_data='donate')]
+                    [InlineKeyboardButton('✘ ᴛʜᴜᴍʙɴᴀɪʟ ✘', callback_data='thumbnail'),
+                    InlineKeyboardButton('✘ ᴄᴀᴘᴛɪᴏɴ ✘', callback_data='caption')],
+                    [InlineKeyboardButton('✘ ʜᴏᴍᴇ ✘', callback_data='home'),
+                    InlineKeyboardButton('✘ ᴅᴏɴᴀᴛᴇ ✘', callback_data='donate')]
                    ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -45,7 +45,7 @@ async def help(bot,update):
 async def thumbnail(bot,update):
     text = script.THUMBNAIL_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("🔙 ʙᴀᴄᴋ",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -53,7 +53,7 @@ async def thumbnail(bot,update):
 async def caption(bot,update):
     text = script.CAPTION_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("🔙 ʙᴀᴄᴋ",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -61,20 +61,20 @@ async def caption(bot,update):
 async def donate(bot,update):
     text = script.DONATE_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("🔙 ʙᴀᴄᴋ",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
 
 @Client.on_callback_query(filters.regex('home'))
 async def home_callback_handler(bot, query):
-    text = f"""Hello {query.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
+    text = f"""Hello {query.from_user.mention} \n\n➻ ➪ ᴍᴀɴᴀɢᴇᴅ ʙʏ :- <a href='https://t.me/rb1bots'> ʀʙ1 ʙᴏᴛs</a>\n➪ ᴄʀᴇᴀᴛᴏʀ :- <a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ✰</a>\n➪ ʟᴀɴɢᴜᴀɢᴇ :- ᴘʏᴛʜᴏɴ 3\n➪ ʟɪʙʀᴀʀʏ:- ᴘʏʀᴏɢʀᴀᴍ 2.0\n➪ ᴅᴇᴠ : @know_sarthak16\n➪ ᴛᴏᴛᴀʟ ғɪʟᴇ ʀᴇɴᴀᴍᴇs :- {total_rename}\n➪ ᴛᴏᴛᴀʟ sɪᴢᴇ ʀᴇɴᴀᴍᴇᴅ:- {humanbytes(int(total_size))} \n\n✭ ᴛʜᴀɴᴋ ʏᴏᴜ **<a href='https://t.me/sarthakkale16'>✰ ʀᴇǫᴜᴇsᴛʙᴏx1 ғᴀᴍɪʟʏ ✰</a>** \nғᴏʀ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ\n✘ ᴡᴇ ʟᴏᴠᴇ ʏᴏᴜ ᴀɴᴅ sᴛᴀɴᴅ ʙʏ ʏᴏᴜ <a href='https://t.me/rb1bots'>**ʀʙ1 ʙᴏᴛs**</a> ❥"""
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
-                    InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
-                    [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-		            InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/CallAdminRobot")]
+                    [InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ✘", url="https://t.me/rb1bots"),
+                    InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ✘", url="https://t.me/requestbox1")],
+                    [InlineKeyboardButton("✘ ʜᴇʟᴘ ✘", callback_data='help'),
+		            InlineKeyboardButton("✘ ᴀʙᴏᴜᴛ ✘", callback_data='about')],
+                    [InlineKeyboardButton("✘ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✘", url="https://t.me/sarthakkale16")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
 
