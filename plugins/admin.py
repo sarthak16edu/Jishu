@@ -57,7 +57,7 @@ async def vip1(bot,update):
 	usertype(int(user_id),"🪙 Basic")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 20 GB")
-	await bot.send_message(user_id,"Hey You Are Upgraded To Basic. Check Your Plan Here /myplan")
+	await bot.send_message(user_id,"ᴜᴘɢʀᴀᴅᴇ sᴜᴄᴄᴇssғᴜʟʟ 💥\n\n𝙃𝙚𝙮 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝙐𝙥𝙜𝙧𝙖𝙙𝙚𝙙 𝙏𝙤 🥈 BASIC 🥈\n𝘾𝙝𝙚𝙘𝙠 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝘽𝙮 𝙎𝙚𝙣𝙙𝙞𝙣𝙜 /myplan\n\n 𝙃𝙖𝙥𝙥𝙮 𝙍𝙚𝙣𝙖𝙢𝙞𝙣𝙜 𝙒𝙞𝙩𝙝 𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙗𝙤𝙭𝟭 @rb1bots")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
@@ -68,7 +68,7 @@ async def vip2(bot,update):
 	usertype(int(user_id),"⚡ Standard")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 50 GB")
-	await bot.send_message(user_id,"Hey You Are Upgraded To Standard. Check Your Plan Here /myplan")
+	await bot.send_message(user_id,"ᴜᴘɢʀᴀᴅᴇ sᴜᴄᴄᴇssғᴜʟʟ 💥\n\n𝙃𝙚𝙮 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝙐𝙥𝙜𝙧𝙖𝙙𝙚𝙙 𝙏𝙤 🥈 STANDARD 🥈\n𝘾𝙝𝙚𝙘𝙠 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝘽𝙮 𝙎𝙚𝙣𝙙𝙞𝙣𝙜 /myplan\n\n 𝙃𝙖𝙥𝙥𝙮 𝙍𝙚𝙣𝙖𝙢𝙞𝙣𝙜 𝙒𝙞𝙩𝙝 𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙗𝙤𝙭𝟭 @rb1bots")
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
@@ -79,7 +79,7 @@ async def vip3(bot,update):
 	usertype(int(user_id),"💎 Pro")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 100 GB")
-	await bot.send_message(user_id,"Hey You Are Upgraded To Pro. Check Your Plan Here /myplan")
+	await bot.send_message(user_id,"ᴜᴘɢʀᴀᴅᴇ sᴜᴄᴄᴇssғᴜʟʟ 💥\n\n𝙃𝙚𝙮 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝙐𝙥𝙜𝙧𝙖𝙙𝙚𝙙 𝙏𝙤 🥈 PRO 🥈\n𝘾𝙝𝙚𝙘𝙠 𝙔𝙤𝙪𝙧 𝙋𝙡𝙖𝙣 𝘽𝙮 𝙎𝙚𝙣𝙙𝙞𝙣𝙜 /myplan\n\n 𝙃𝙖𝙥𝙥𝙮 𝙍𝙚𝙣𝙖𝙢𝙞𝙣𝙜 𝙒𝙞𝙩𝙝 𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙗𝙤𝙭𝟭 @rb1bots")
 
 
 # CEASE POWER MODE @JISHUDEVELOPER
@@ -93,7 +93,7 @@ async def cp1(bot,update):
 	usertype(int(user_id),"⚠️ Account Downgraded")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Upload Limit 2GB")
-	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @calladminrobot")
+	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @helpsarthak_bot")
 
 
 @Client.on_callback_query(filters.regex('cp2'))
@@ -105,7 +105,7 @@ async def cp2(bot,update):
 	usertype(int(user_id),"⚠️ Account Downgraded")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Upload Limit 0GB")
-	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 0GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @calladminrobot")
+	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 0GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @helpsarthak_bot")
 
 
 
@@ -120,8 +120,8 @@ async def dft(bot,update):
 	uploadlimit(int(user_id), 2147483652)
 	usertype(int(user_id),"🆓 Free")
 	addpre(int(user_id))
-	await update.message.edit("**Daily Data Limit Has Been Reset Successfully.**\n\nThis Account Has Default 2GB Remaining Capacity")
-	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>")
+	await update.message.edit("**Daily Data Limit Has Been Reset Successfully.**\n\nThis Account Has Default 2GB Remaining Capacity\n Check /myplan")
+	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/sarthakkale16'>Requestbox1</a>")
 
 
 
