@@ -35,16 +35,17 @@ async def start(client, message):
     loading_sticker_message = await message.reply_sticker("CAACAgIAAxkBAALmzGXSSt3ppnOsSl_spnAP8wHC26jpAAJEGQACCOHZSVKp6_XqghKoHgQ")
     await asyncio.sleep(2)
     await loading_sticker_message.delete()
-    txt=f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
+    txt=f"""Hello {message.from_user.mention} \ɴ\ɴ➻ ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ ᴘᴏᴡᴇʀꜰᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.\n\n➻ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ʀᴇɴᴀᴍᴇ ᴀɴᴅ ᴄʜᴀɴɢᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴏꜰ ʏᴏᴜʀ ꜰɪʟᴇꜱ.\n\n➻ ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ ᴛᴏ ꜰɪʟᴇ ᴀND ꜰɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ.\n\n ➻ ᴛʜɪꜱ ʙᴏᴛ ᴀʟꜱᴏ ꜱᴜᴘᴘᴏʀᴛꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ.\n\n<ʙ>ʙᴏᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ\n © @rb1bots & © @requestbox1official</b>"""
     await message.reply_photo(photo=BOT_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup([
-                                      [InlineKeyboardButton("✰ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✰", url="https://t.me/rb1bots")],
-                                      [InlineKeyboardButton("ᴍᴏᴠɪᴇs", url="https://t.me/requestbox1")],
-                                      [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ʙᴏᴛ", url='https://t.me/helpsarthak_bot'),
-                                      InlineKeyboardButton("ɪɴᴅᴇx", url='https://t.me/rb1index')],
-                                      [InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url='https://t.me/rb1official'),
-                                      InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ", url='https://t.me/sarthakkale16')],
+                                      [InlineKeyboardButton("✰ ＰＯＷＥＲＥＤ ＢＹ ✰", url="https://t.me/rb1bots")],
+				      [InlineKeyboardButton("✪ ʙᴏʟʟʏᴡᴏᴏᴅ ✪", url='https://t.me/helpsarthak_bot'),
+                                      InlineKeyboardButton("✪ ᴍᴏᴠɪᴇs ✪", url="https://t.me/requestbox1")],
+                                      [InlineKeyboardButton("⍟ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ʙᴏᴛ ⍟", url='https://t.me/helpsarthak_bot'),
+                                      InlineKeyboardButton("⍟ ɪɴᴅᴇx ⍟", url='https://t.me/rb1index')],
+                                      [InlineKeyboardButton("✮ ᴘʀᴇᴍɪᴜᴍ ✮", url='https://t.me/rb1official'),
+                                      InlineKeyboardButton("✮ ᴅᴏɴᴀᴛᴇ ✮", url='https://t.me/sarthakkale16')],
                                       ]))
     return
 
@@ -58,7 +59,7 @@ async def send_doc(client, message):
         except UserNotParticipant:
             _newus = find_one(message.from_user.id)
             user = _newus["usertype"]
-            await message.reply_text("<b>Hello Dear \n\nYou Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
+            await message.reply_text("<b>Hello Dear \n\nʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ\n\n ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ @requestbox1official & ᴛʀʏ ᴀɢᴀɪɴ</b>",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("✭ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟs✭", url=f"https://t.me/{update_channel}")]]))
